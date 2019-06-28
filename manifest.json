@@ -1,0 +1,29 @@
+{
+    "name": "PWANewsAPI",
+    "short_name": "NewsAPI",
+
+    // Possible values ltr(left to right)/rtl(right to left)
+    "dir": "ltr",
+
+    // language: Default en-US
+    "lang": "en-US",
+
+    // Orientation of web-app possible:
+    // any, natural, landscape, landscape-primary, landscape-secondary, portrait, portrait-primary, portrait-secondary
+    "orientation": "any",
+    "start_url": "/",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "display": "standalone",
+    "description": "A cool PWA app with News API build on top of React Technology",
+    "icons": [
+      {
+        "src": "/src/resources/img/news-api-192x192.png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/src/resources/img/news-api-512x512.png",
+        "sizes": "512x512"
+      }
+    ]
+  }
