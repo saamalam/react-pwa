@@ -67,11 +67,11 @@ export default [
     },
   },
   {
-    path: '/skeleton-loading',
+    path: '/async-loading',
     exact: true,
     loadData: async () => new Promise((r) => {
       setTimeout(() => {
-        fetch('https://www.atyantik.com/wp-json/wp/v2/posts/?per_page=4&_fields[]=title&_fields[]=excerpt&_fields[]=jetpack_featured_media_url')
+        fetch('https://jacklyons.me/wp-json/wp/v2/posts')
           .then(res => res.json())
           .then(res => r(res));
       }, 1000);
@@ -79,7 +79,7 @@ export default [
     component: () => import('../components/skeleton-loading'),
     skeleton,
     seo: {
-      title: 'Skeleton Loading | ReactPWA Demo',
+      title: 'Async Loading | ReactPWA Demo',
       description: 'Tired of adding ugly loaders? Do not let your users get confused, give them the best user experience of what is getting loaded. Use Skeleton Loading',
       image: SkeletonImage,
     },

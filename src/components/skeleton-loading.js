@@ -8,7 +8,7 @@ export default (props) => {
   return (
     <GuestLayout>
       <div className="container p-t-xl  p-r-md p-l-md">
-        <h1 className="title">Ajax loaded SSR Compliant blog list from Atyantik Technologies</h1>
+        <h1 className="title">Ajax loaded SSR Compliant blog from Wordpress API</h1>
         <div className="tile is-ancestor">
           <div className="tile is-vertical is-8">
             <div className="tile">

@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-// import axios from 'axios';
 import Item from './Items';
-// import Outlet from './Outlet';
-
 class Home extends Component {
   constructor(props) {
     // Pass props to parent class
@@ -19,7 +16,7 @@ class Home extends Component {
     this.handleChange = this.handleChange.bind(this);
     this.handleChangeCountry = this.handleChangeCountry.bind(this);
 
-   // this.apiUrl = `https://newsapi.org/v2/sources?language=en&apiKey=${process.env.REACT_APP_API_KEY}`;
+   
   }
 
   handleChange(event) {
@@ -31,16 +28,6 @@ class Home extends Component {
     this.setState({cou: event.target.value});
     
   }
-
-  // Lifecycle method
-  //componentWillMount() {
-    // Make HTTP reques with Axios
-    // axios.get(this.apiUrl).then(res => {
-    //   // Set state with result
-    //   this.setState({ data: res.data.sources });
-    //   this.setState({ count: res.data.sources.length });      
-    // });
-  //}
 
   render() {
     return (
@@ -73,12 +60,9 @@ class Home extends Component {
         </select>
         </div>
         </div>
-        
-        {/* <Outlet default={this.state.value} /> */}
         <Item category={this.state.cat} country={this.state.cou} />
       </div>
     );
   }
 }
-
 export default Home;
