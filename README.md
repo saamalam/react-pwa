@@ -17,6 +17,9 @@ npm install
 To start the project run following command in your terminal:
 ```bash
 npm start
+
+#once inititated start open your browser and view
+http://localhost:3003
 ```
 
 To build the project run the following command in your terminal:
