@@ -27,6 +27,11 @@ To build the project run the following command in your terminal:
 npm run build
 ```
 
+To test the project run the following command in your terminal:
+```bash
+npm run test
+```
+
 #### Features
 ##### PWA  - Progressive Web Applications
 Using ReactPWA you can create Progressive web application with simple knowledge of React.JS. As we all know, Progressive Apps are not supported everywhere, but we have added support for Safari & Chrome so your application can work as 
@@ -39,7 +44,10 @@ We make it really easy here to just create a page that returns an array of route
 
 
 ##### ES6/7 Compatible
-Using babel, we support next generation JavaScript syntax including Object/Array destructuring, arrow functions, JSX syntax and more...  
+Using babel, we support next generation JavaScript syntax including Object/Array destructuring, arrow functions, JSX syntax and more... 
+
+##### Jest for Unit Testing
+Using Jest, we support simple and smooth JavaScript testing, components, async testing, integration testing and more...
 
 ##### Universal Routing with React-Router
 We are using the most accepted React router for routing the application. Add your favorite /about, /contact, /dashboard pages.  
