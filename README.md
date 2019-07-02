@@ -1,7 +1,6 @@
 # React PWA NewsAPI
 A highly scalable, Progressive Web Application for Online News from thousands of news channels, with the best Developer Experience.
 
-#### Demo: [https://demo.hexxasoft.com](https://demo.hexxasoft.com)
 
 ### Quick Start
 Clone the repository:
