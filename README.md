@@ -13,6 +13,11 @@ Install the dependencies:
 npm install
 ```
 
+Create .env file on root and put your generated API from https://newsapi.org:
+```bash
+REACT_APP_API_KEY=0192a6c376ed45eca43e9bbaedsfsdsd2addsc28e
+```
+
 To start the project run following command in your terminal:
 ```bash
 npm start
